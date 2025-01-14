@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.header-container,
+.hero-container,
+footer {
+  background-color: #1f2937;
+}
+
+header {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero-text {
+  width: 45%;
+}
+
+.hero h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+.hero img {
+  width: 40%;
+}
+
+.feature {
+  max-width: 1200px;
+  margin: 50px auto 100px auto;
+}
+
+.feature h3 {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.feature-img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 100px 50px;
+}
+
+.quote p {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote span {
+  font-weight: 900;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CTA {
+  max-width: 1200px;
+  background-color: #3882f6;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CTA h4 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.CTA p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.CTA .btn {
+  border: white 2px solid;
+}
+footer {
+  text-align: center;
+  padding: 40px 40px;
+}
+
+footer span {
+  font-size: 18px;
+  color: #e5e7eb;
+}
